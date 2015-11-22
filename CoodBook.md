@@ -17,28 +17,29 @@ From these raw data sets, the ~~run_analysis.R~~ and its resulting text file ~~t
 
 
 ### Tidy Data Variable Description
-~~tidy_data_set_created_in_step_5.txt~~ consist of 69 variables and 180 observations.
+*tidy_data_set_created_in_step_5.txt* consist of 69 variables and 180 observations.
 Each variable contains following info: 
 
 ##### id Variables
 First three columns contain variables with identification. 
 
-**Variable 1.** ~~activity_name~~
+**Variable 1.**  *activity_name*
 contains six activities : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-**Variable 2.** ~~subject~~
+**Variable 2.**  *subject*
 contains identification number of 30 participants of the experiment. 
 
-**Variable 3.** ~~activity~~
-contains labeling number of ~~activity_name~~
- activity_name | activity 
- --------------|----------
- WALKING | 1
- WALKING_UPSTAIRS | 2
- WALKING_DOWNSTAIRS | 3
- SITTING | 4
- STANDING | 5
- LAYING | 6
+**Variable 3.** *activity*
+contains labeling number of *activity_name*
+|activity_name|activity|
+|--------------|----------|
+|WALKING|1|
+|WALKING_UPSTAIRS|2|
+|WALKING_DOWNSTAIRS|3|
+|SITTING|4|
+|STANDING|5|
+|LAYING|6|
+---------------------------
  
 **Variable 4 through 69**
 contain calculated average (from the raw data sets) of each variable grouped by activity and subject.
