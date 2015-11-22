@@ -22,14 +22,14 @@ Each variable contains following info:
 
 First three columns contain variables with identification. 
 
-**Variable 1.**  *activity_name*
-contains six activities : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+**Variable 1.**  `activity_name`
+Contains six activities : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-**Variable 2.**  *subject*
-contains identification number of 30 participants of the experiment. 
+**Variable 2.**  `subject`
+Contains identification number of 30 participants of the experiment. 
 
-**Variable 3.** *activity*
-contains labeling number of *activity_name*
+**Variable 3.** `activity`
+Contains labeling number of *activity_name*
 
 |activity_name     |activity  |
 |------------------|----------|
@@ -45,74 +45,74 @@ contains labeling number of *activity_name*
 contain calculated average (from the raw data sets) of each variable grouped by activity and subject.
 The list are as follow:
 
-Column(Variable) No. | Variable Name | Unit
---------------------------------------------------------------------------------------
-4  | mean_of_time_signal_of_BodyAcc_on_X_axis							| Acceleration
-5  | mean_of_time_signal_of_BodyAcc_on_Y_axis							| Acceleration
-6  | mean_of_time_signal_of_BodyAcc_on_Z_axis 							| Acceleration
-7  | standard_deviation_of_time_signal_of_BodyAcc_on_X_axis 			| Acceleration
-8  | standard_deviation_of_time_signal_of_BodyAcc_on_Y_axis 			| Acceleration
-9  | standard_deviation_of_time_signal_of_BodyAcc_on_Z_axis 			| Acceleration
-10 | mean_of_time_signal_of_GravityAcc_on_X_axis 						| Acceleration
-11 | mean_of_time_signal_of_GravityAcc_on_Y_axis 						| Acceleration
-12 | mean_of_time_signal_of_GravityAcc_on_Z_axis 						| Acceleration
-13 | standard_deviation_of_time_signal_of_GravityAcc_on_X_axis 			| Acceleration
-14 | standard_deviation_of_time_signal_of_GravityAcc_on_Y_axis 			| Acceleration
-15 | standard_deviation_of_time_signal_of_GravityAcc_on_Z_axis 			| Acceleration
-16 | mean_of_time_signal_of_BodyAccJerk_on_X_axis 						| Jerk
-17 | mean_of_time_signal_of_BodyAccJerk_on_Y_axis 						| Jerk
-18 | mean_of_time_signal_of_BodyAccJerk_on_Z_axis 						| Jerk
-19 | standard_deviation_of_time_signal_of_BodyAccJerk_on_X_axis 		| Jerk
-20 | standard_deviation_of_time_signal_of_BodyAccJerk_on_Y_axis 		| Jerk
-21 | standard_deviation_of_time_signal_of_BodyAccJerk_on_Z_axis 		| Jerk
-22 | mean_of_time_signal_of_BodyGyro_on_X_axis 							| Velocity
-23 | mean_of_time_signal_of_BodyGyro_on_Y_axis 							| Velocity
-24 | mean_of_time_signal_of_BodyGyro_on_Z_axis 							| Velocity
-25 | standard_deviation_of_time_signal_of_BodyGyro_on_X_axis 			| Velocity
-26 | standard_deviation_of_time_signal_of_BodyGyro_on_Y_axis 			| Velocity
-27 | standard_deviation_of_time_signal_of_BodyGyro_on_Z_axis 			| Velocity
-28 | mean_of_time_signal_of_BodyGyroJerk_on_X_axis 						| Jerk
-29 | mean_of_time_signal_of_BodyGyroJerk_on_Y_axis 						| Jerk
-30 | mean_of_time_signal_of_BodyGyroJerk_on_Z_axis 						| Jerk
-31 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_X_axis 		| Jerk
-32 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_Y_axis 		| Jerk
-33 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_Z_axis 		| Jerk
-34 | mean_of_time_signal_of_BodyAccMag 									| Magnitude
-35 | standard_deviation_of_time_signal_of_BodyAccMag 					| Magnitude
-36 | mean_of_time_signal_of_GravityAccMag 								| Magnitude
-37 | standard_deviation_of_time_signal_of_GravityAccMag 				| Magnitude
-38 | mean_of_time_signal_of_BodyAccJerkMag 								| Magnitude
-39 | standard_deviation_of_time_signal_of_BodyAccJerkMag 				| Magnitude
-40 | mean_of_time_signal_of_BodyGyroMag 								| Magnitude
-41 | standard_deviation_of_time_signal_of_BodyGyroMag 					| Magnitude
-42 | mean_of_time_signal_of_BodyGyroJerkMag 							| Magnitude
-43 | standard_deviation_of_time_signal_of_BodyGyroJerkMag 				| Magnitude
-44 | mean_of_frequency_signal_of_BodyAcc_on_X_axis 						| Acceleration
-45 | mean_of_frequency_signal_of_BodyAcc_on_Y_axis 						| Acceleration
-46 | mean_of_frequency_signal_of_BodyAcc_on_Z_axis 						| Acceleration
-47 | standard_deviation_of_frequency_signal_of_BodyAcc_on_X_axis 		| Acceleration
-48 | standard_deviation_of_frequency_signal_of_BodyAcc_on_Y_axis 		| Acceleration
-49 | standard_deviation_of_frequency_signal_of_BodyAcc_on_Z_axis 		| Acceleration
-50 | mean_of_frequency_signal_of_BodyAccJerk_on_X_axis 					| Jerk
-51 | mean_of_frequency_signal_of_BodyAccJerk_on_Y_axis 					| Jerk
-52 | mean_of_frequency_signal_of_BodyAccJerk_on_Z_axis 					| Jerk
-53 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_X_axis 	| Jerk
-54 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_Y_axis 	| Jerk
-55 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_Z_axis 	| Jerk
-56 | mean_of_frequency_signal_of_BodyGyro_on_X_axis						| Velocity
-57 | mean_of_frequency_signal_of_BodyGyro_on_Y_axis				   		| Velocity
-58 | mean_of_frequency_signal_of_BodyGyro_on_Z_axis				   		| Velocity
-59 | standard_deviation_of_frequency_signal_of_BodyGyro_on_X_axis  		| Velocity
-60 | standard_deviation_of_frequency_signal_of_BodyGyro_on_Y_axis  		| Velocity
-61 | standard_deviation_of_frequency_signal_of_BodyGyro_on_Z_axis  		| Velocity
-62 | mean_of_frequency_signal_of_BodyAccMag 					   		| Magnitude
-63 | standard_deviation_of_frequency_signal_of_BodyAccMag 		   		| Magnitude
-64 | mean_of_frequency_signal_of_BodyBodyAccJerkMag 			   		| Magnitude
-65 | standard_deviation_of_frequency_signal_of_BodyBodyAccJerkMag  		| Magnitude
-66 | mean_of_frequency_signal_of_BodyBodyGyroMag 				   		| Magnitude
-67 | standard_deviation_of_frequency_signal_of_BodyBodyGyroMag 	   		| Magnitude
-68 | mean_of_frequency_signal_of_BodyBodyGyroJerkMag 			   		| Magnitude
-69 | standard_deviation_of_frequency_signal_of_BodyBodyGyroJerkMag 		| Magnitude
+Column(Variable) No. | Variable Name 													| Unit
+---------------------|------------------------------------------------------------------|---------------------
+4 					 | mean_of_time_signal_of_BodyAcc_on_X_axis							| Acceleration
+5  				     | mean_of_time_signal_of_BodyAcc_on_Y_axis							| Acceleration
+6 					 | mean_of_time_signal_of_BodyAcc_on_Z_axis 						| Acceleration
+7					 | standard_deviation_of_time_signal_of_BodyAcc_on_X_axis 			| Acceleration
+8  					 | standard_deviation_of_time_signal_of_BodyAcc_on_Y_axis 			| Acceleration
+9					 | standard_deviation_of_time_signal_of_BodyAcc_on_Z_axis 			| Acceleration
+10					 | mean_of_time_signal_of_GravityAcc_on_X_axis 						| Acceleration
+11					 | mean_of_time_signal_of_GravityAcc_on_Y_axis 						| Acceleration
+12					 | mean_of_time_signal_of_GravityAcc_on_Z_axis 						| Acceleration
+13					 | standard_deviation_of_time_signal_of_GravityAcc_on_X_axis 		| Acceleration
+14					 | standard_deviation_of_time_signal_of_GravityAcc_on_Y_axis 		| Acceleration
+15					 | standard_deviation_of_time_signal_of_GravityAcc_on_Z_axis 		| Acceleration
+16 					 | mean_of_time_signal_of_BodyAccJerk_on_X_axis 					| Jerk
+17					 | mean_of_time_signal_of_BodyAccJerk_on_Y_axis 					| Jerk
+18					 | mean_of_time_signal_of_BodyAccJerk_on_Z_axis 					| Jerk
+19					 | standard_deviation_of_time_signal_of_BodyAccJerk_on_X_axis 		| Jerk
+20					 | standard_deviation_of_time_signal_of_BodyAccJerk_on_Y_axis 		| Jerk
+21					 | standard_deviation_of_time_signal_of_BodyAccJerk_on_Z_axis 		| Jerk
+22					 | mean_of_time_signal_of_BodyGyro_on_X_axis 						| Velocity
+23					 | mean_of_time_signal_of_BodyGyro_on_Y_axis 						| Velocity
+24					 | mean_of_time_signal_of_BodyGyro_on_Z_axis 						| Velocity
+25					 | standard_deviation_of_time_signal_of_BodyGyro_on_X_axis 			| Velocity
+26					 | standard_deviation_of_time_signal_of_BodyGyro_on_Y_axis 			| Velocity
+27					 | standard_deviation_of_time_signal_of_BodyGyro_on_Z_axis 			| Velocity
+28					 | mean_of_time_signal_of_BodyGyroJerk_on_X_axis 					| Jerk
+29					 | mean_of_time_signal_of_BodyGyroJerk_on_Y_axis 					| Jerk
+30					 | mean_of_time_signal_of_BodyGyroJerk_on_Z_axis 					| Jerk
+31					 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_X_axis 		| Jerk
+32					 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_Y_axis 		| Jerk
+33					 | standard_deviation_of_time_signal_of_BodyGyroJerk_on_Z_axis 		| Jerk
+34					 | mean_of_time_signal_of_BodyAccMag 								| Magnitude
+35					 | standard_deviation_of_time_signal_of_BodyAccMag 					| Magnitude
+36					 | mean_of_time_signal_of_GravityAccMag 							| Magnitude
+37					 | standard_deviation_of_time_signal_of_GravityAccMag 				| Magnitude
+38					 | mean_of_time_signal_of_BodyAccJerkMag 							| Magnitude
+39					 | standard_deviation_of_time_signal_of_BodyAccJerkMag 				| Magnitude
+40					 | mean_of_time_signal_of_BodyGyroMag 								| Magnitude
+41					 | standard_deviation_of_time_signal_of_BodyGyroMag 				| Magnitude
+42					 | mean_of_time_signal_of_BodyGyroJerkMag 							| Magnitude
+43					 | standard_deviation_of_time_signal_of_BodyGyroJerkMag 			| Magnitude
+44					 | mean_of_frequency_signal_of_BodyAcc_on_X_axis 					| Acceleration
+45					 | mean_of_frequency_signal_of_BodyAcc_on_Y_axis 					| Acceleration
+46					 | mean_of_frequency_signal_of_BodyAcc_on_Z_axis 					| Acceleration
+47					 | standard_deviation_of_frequency_signal_of_BodyAcc_on_X_axis 		| Acceleration
+48					 | standard_deviation_of_frequency_signal_of_BodyAcc_on_Y_axis 		| Acceleration
+49					 | standard_deviation_of_frequency_signal_of_BodyAcc_on_Z_axis 		| Acceleration
+50					 | mean_of_frequency_signal_of_BodyAccJerk_on_X_axis 				| Jerk
+51					 | mean_of_frequency_signal_of_BodyAccJerk_on_Y_axis 				| Jerk
+52					 | mean_of_frequency_signal_of_BodyAccJerk_on_Z_axis 				| Jerk
+53					 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_X_axis 	| Jerk
+54					 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_Y_axis 	| Jerk
+55					 | standard_deviation_of_frequency_signal_of_BodyAccJerk_on_Z_axis 	| Jerk
+56					 | mean_of_frequency_signal_of_BodyGyro_on_X_axis					| Velocity
+57					 | mean_of_frequency_signal_of_BodyGyro_on_Y_axis				   	| Velocity
+58					 | mean_of_frequency_signal_of_BodyGyro_on_Z_axis				   	| Velocity
+59					 | standard_deviation_of_frequency_signal_of_BodyGyro_on_X_axis  	| Velocity
+60					 | standard_deviation_of_frequency_signal_of_BodyGyro_on_Y_axis  	| Velocity
+61					 | standard_deviation_of_frequency_signal_of_BodyGyro_on_Z_axis  	| Velocity
+62					 | mean_of_frequency_signal_of_BodyAccMag 					   		| Magnitude
+63					 | standard_deviation_of_frequency_signal_of_BodyAccMag 		   	| Magnitude
+64					 | mean_of_frequency_signal_of_BodyBodyAccJerkMag 			   		| Magnitude
+65					 | standard_deviation_of_frequency_signal_of_BodyBodyAccJerkMag  	| Magnitude
+66					 | mean_of_frequency_signal_of_BodyBodyGyroMag 				   		| Magnitude
+67					 | standard_deviation_of_frequency_signal_of_BodyBodyGyroMag 	   	| Magnitude
+68					 | mean_of_frequency_signal_of_BodyBodyGyroJerkMag 			   		| Magnitude
+69					 | standard_deviation_of_frequency_signal_of_BodyBodyGyroJerkMag 	| Magnitude
 
 
 
