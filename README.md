@@ -18,7 +18,7 @@ library(dplyr)
 library(stringr)
 ```
 
-#### READING THE FILES (train and test datasets)
+#### Reading the files (train and test datasets)
 ```
 x_train <- read.table("./train/X_train.txt")
 y_train <- read.table("./train/y_train.txt")
